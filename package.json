@@ -2,8 +2,9 @@
   "name": "lighthouse-server-edition",
   "version": "0.0.1",
   "description": "A server-based lighthouse runner that plots data over time. ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+	"lighthouse": "node ./src/run-lighthouse.js",
     "test": "jest"
   },
   "repository": {
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/wookets/lighthouse-server-edition/issues"
   },
-  "homepage": "https://github.com/wookets/lighthouse-server-edition#readme"
+  "homepage": "https://github.com/wookets/lighthouse-server-edition#readme",
+  "dependencies": {
+    "express": "4.16.3",
+    "lighthouse": "3.0.1"
+  },
+  "devDependencies": {
+    "jest": "23.2.0"
+  }
 }
