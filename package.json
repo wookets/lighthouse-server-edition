@@ -1,0 +1,24 @@
+{
+  "name": "lighthouse-server-edition",
+  "version": "0.0.1",
+  "description": "A server-based lighthouse runner that plots data over time. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wookets/lighthouse-server-edition.git"
+  },
+  "keywords": [
+    "lighthouse",
+    "server",
+    "node"
+  ],
+  "author": "wookets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wookets/lighthouse-server-edition/issues"
+  },
+  "homepage": "https://github.com/wookets/lighthouse-server-edition#readme"
+}
